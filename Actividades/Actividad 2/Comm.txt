@@ -1,4 +1,0 @@
-python3 Actividades/"Actividad 3"/main.py
-
-
-/home/lubuntu/Trabajo/Repositorio-Martin-Avila-IIC2233-26663767-/Actividades/Actividad 3/chico
