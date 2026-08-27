@@ -19,7 +19,7 @@ class Regalo:
         return self._precio
 
     @precio.setter
-    def cambiar_precio(self, precio_nuevo):
+    def precio(self, precio_nuevo):
         if 0 <= precio_nuevo <= PRECIO_MAXIMO:
             self._precio = precio_nuevo
         else:
