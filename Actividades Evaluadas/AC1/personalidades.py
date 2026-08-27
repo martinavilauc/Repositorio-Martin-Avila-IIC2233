@@ -13,8 +13,10 @@ class Cascarrabias(Aldeano):
         """
         POR COMPLETAR (Parte 3):
         """
-        
-        pass
+        if regalo.precio >= PRECIO_CARO:
+            self.amistad += 10
+        else:
+            self.amistad -= 5
 
 
 class Alegre(Aldeano):
@@ -27,7 +29,10 @@ class Alegre(Aldeano):
         """
         POR COMPLETAR (Parte 3)
         """
-        pass
+        if regalo.categoria == "fruta":
+            self.amistad += 12
+        else:
+            self.amistad += 5
 
 
 class Presumida(Aldeano):
@@ -39,4 +44,10 @@ class Presumida(Aldeano):
         """
         POR COMPLETAR (Parte 3)
         """
-        pass
+        if regalo.categoria == "ropa":
+            if regalo.precio >= PRECIO_CARO:
+                self.amistad += 15
+            else:
+                self.amistad += 6
+        else:
+            self.amistad += 1
