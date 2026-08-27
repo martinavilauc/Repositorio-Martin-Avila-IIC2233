@@ -22,7 +22,7 @@ class Rosie(Alegre):
 
     def __init__(self) -> None:
         # POR COMPLETAR (Parte 2)
-        pass
+        super().__init__(nombre="Rosie", especie="gato")
 
 
 class Peanut(Alegre):
@@ -32,7 +32,7 @@ class Peanut(Alegre):
 
     def __init__(self) -> None:
         # POR COMPLETAR (Parte 2)
-        pass
+        super().__init__(nombre="Peanut", especie="ardilla")
 
 
 class Whitney(Presumida):
@@ -42,17 +42,17 @@ class Whitney(Presumida):
 
     def __init__(self) -> None:
         # POR COMPLETAR (Parte 2)
-        pass
+        super().__init__(nombre="Whitney", especie="lobo")
 
 
 class TomNook(Cascarrabias):
     """
-    Aldeano cascarrabias 
+    Aldeano cascarrabias
     """
 
     def __init__(self) -> None:
         # POR COMPLETAR (Parte 2)
-        pass
+        super().__init__(nombre="Tom Nook", especie="mapache")
 
 
 class Canela(Alegre):
@@ -62,5 +62,4 @@ class Canela(Alegre):
 
     def __init__(self) -> None:
         # POR COMPLETAR (Parte 2)
-        pass
-
+        super().__init__(nombre="Canela", especie="perro")
